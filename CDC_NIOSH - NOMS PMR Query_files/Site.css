@@ -1,0 +1,228 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #b6b7bc;
+    font-size: 100%;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+span.codes 
+{
+    font-size: 70%;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    /* width: 960px; */
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    /* border: 1px solid #496077; */
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #000;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+div.listbox 
+{
+    clear: both;
+    margin-top: 20px !important;
+}
+div.listbox select
+{
+    width: 50em;
+}
+p.searchagain 
+{
+    margin-top: 1em;
+}
+
+
+/* MISC  
+----------------------------------------------------------*/
+div.pmrtable 
+{
+    /*height: 600px; */
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+div.pmrtable table.pmr thead tr
+{
+    /* width: 100%; 
+    position: absolute;*/
+}
+
+table.pmr 
+{
+    font-size: 10pt;
+    border: 1px solid #ccc !important;
+    margin: 0;
+}
+table.pmr tr.altrow 
+{
+    background-color: #eee;
+}
+table.pmr tr.header
+{
+    border-left: none; /* 1px solid #fff;*/
+    background-color: #e4dabc;
+    color: #000;
+}
+table.pmr td, table.pmr th
+{
+    color: #000;
+    vertical-align: top;
+    font-size: 10pt;
+    padding: 3px;
+    border: 1px solid #ccc !important;
+}
+table.pmr td.num
+{
+    text-align: right;
+}
+table.pmr td.char
+{
+    text-align: center;
+}
+table.pmr td.title
+{
+    text-align: left;
+}
+table.racesex 
+{
+    border: none !important;
+    clear: left;
+}
+table.racesex td
+{
+    border: none !important;
+    /*margin-bottom: 1em !important;*/
+}
+/* form elements */
+div.agegroup 
+{
+    text-align: left;
+}
+div.agegroup table, div.agegroup table td, div.sortorder table, div.sortorder table td
+{
+    text-align: left;
+    border: none !important;
+   
+}
+table.agegroup, table.sortselect
+{
+    float: left !important;
+    text-align: left;
+    border: none !important;
+}
+div.agegroup, div.sortorder, div.submit {
+    clear: left;
+    text-align: left;
+}
+div.form p 
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+div.submit  
+{
+    margin-top: 1em !important; 
+    padding-top: 1em;
+}
+span.control_label 
+{
+    font-weight: bold;
+}
